@@ -1,0 +1,273 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    color:black;
+}
+html,body{
+    height:100%;
+    width: 100%;
+}
+body{
+    overflow-x: hidden;
+}
+section{
+    height:100%;
+    width: 100%;
+    padding-left:40px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:20px 20px;
+}
+#part2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:25px;
+}
+nav h1 i{
+   display: inline-block;
+   rotate: 30deg;
+   padding-left: 20px;
+}
+nav h1{
+    font-size: 50px;
+    font-weight: 600;
+}
+nav h4{
+    font-size: 25px;
+    font-weight: 500;
+}
+nav button{
+    color:#000000;
+    padding:15px 25px;
+    font-size: 15px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: transparent;
+}
+#center{
+    height:70%;
+    width: 100%;
+    display: flex;
+    padding: 70px 20px;       
+}
+.center1{
+    height:100%;
+    width:38%;
+    padding-left: 40px;
+}
+.center1 h1{
+    font-size: 50px;
+    line-height: 1.1;
+    font-weight: 600;
+}
+.center1 p{
+    font-size: 15px;
+    padding-top:40px;
+    padding-bottom: 30px;
+    width: 95%;
+}
+.center1 button{
+    border: 2px solid black;
+    font-size: 20px;
+    font-weight: 600;
+    padding:10px;
+    border-radius: 10px;
+    color:white;
+    background-color: black;
+}
+.center2{
+    height:100%;
+    width:62%;
+    position: relative;
+}
+.center2 img{
+    height:100%;
+    width: 60%;
+    position:absolute;
+    right:10%;
+}
+.section1bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.section1bottom img{
+    height:80px;
+}
+.section2 .services{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap:50px;
+    padding-left:60px;
+    margin-top: 20px;
+}
+.services h1{
+    font-size: 50px;
+    font-weight: 600;
+    background-color: #bcd85f;
+    padding: 10px;
+    border-radius: 10px;
+}
+.services p{
+    font-size: 16px;
+    font-weight: 400;
+    width: 40%;
+    line-height: 1.1;
+} 
+#container{
+    height:90%;
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    padding:80px 60px;
+    flex-wrap: wrap;
+    gap:50px;
+}
+.elem{
+    height:350px;
+    width:48%;
+    border: 3px solid black;
+    border-radius: 40px;
+    flex-shrink:0 ;
+    box-shadow: 0 15px 0 black;
+    display: flex;
+    padding:30px;
+}
+.elem-part1{
+    height:100%;
+    width:54%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.elem-part1 h2{
+    font-size: 40px;
+    font-weight: 500;
+    background-color: #bcd85f;
+    border-radius: 10px;
+    padding: 0 6px;
+}
+.black .elem-part1 h2{
+    background-color: white;
+    width: 90%;
+}
+.elem-part1 h4{
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 400;
+    gap:20px;
+}
+.black .elem-part1 h4{
+    color:white;
+}
+.elem-part1 h4 i{
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    padding:5px;
+    font-weight: 900;
+}
+.black .elem-part1 h4 i{
+    background-color: white;
+    color: black;
+}
+.elem-part2{
+    height: 100%;
+    width: 46%;
+}
+.elem-part2 img{
+    width: 100%; 
+    bottom: 0;
+}
+.black{
+    background-color: black;
+    color: white;
+}
+.img2{
+    height: 80%;
+    object-fit: cover;
+}
+.section3{
+    min-height: 100vh;
+}
+.box{
+    height: 40%;
+    width: 90%;
+    margin-top: 20%;
+    background-color: #f3f3f3;
+    padding: 20px;
+    display: flex;
+    border-radius: 20px;
+    margin-left: 60px;
+}
+.box1{
+    height:100%;
+    width: 40%;
+    display: flex;
+    align-items: flex-start;
+    /* justify-content: space-around; */
+    flex-direction: column;
+    gap:10px;
+}
+.box1 h1{
+    font-size: 30px;
+    padding: 10px 20px;
+    font-weight: 700;
+}
+.box1 p{
+    font-size: 20px;
+    font-weight: 400;
+    padding: 10px 20px;
+}
+.box1 button{
+    border: 2px solid black;
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+    padding:20px ;
+    margin-left:20px ;
+    font-size: 15px;
+    font-weight: 500;
+}
+.box2{
+    height:100%;
+    width: 60%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding-right: 10%;
+}
+.box2 img{
+    height: 100%;
+    width: 40%;
+    background-color: #f3f3f3;
+}
+.case-study{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap:50px;
+    height: 30%;
+    width: 80%;
+    margin: 60px;
+}
+.case-study h1{
+    background-color: #bcd85f;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 35px;
+    font-weight: 700;
+}
+.case-study p{
+    font-size: 15px;
+}
