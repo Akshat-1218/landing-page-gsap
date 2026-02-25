@@ -4,6 +4,12 @@ A modern animated landing page built using **HTML, CSS, JavaScript**, and **GSAP
 
 ---
 
+## 🌐 Live Demo
+
+(https://akshat-1218.github.io/landing-page-gsap/)
+
+---
+
 ## ✨ Features
 
 - Smooth scroll-based animations
@@ -32,11 +38,5 @@ A modern animated landing page built using **HTML, CSS, JavaScript**, and **GSAP
 - Scroll-based animation triggers
 - Improving user experience with motion design
 - Structuring clean frontend projects
-
----
-
-## 🌐 Live Demo
-
-(Add your GitHub Pages link here)
 
 ---
